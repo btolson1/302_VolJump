@@ -30,7 +30,6 @@ public class Buttons : MonoBehaviour
   // Exit application in player mode and editor mode
    public void Quit() {
      Application.Quit();
-     UnityEditor.EditorApplication.isPlaying = false;
    }
    
    // Use Canvas activation to Determine which panels should be
