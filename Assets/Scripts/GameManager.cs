@@ -1,3 +1,9 @@
+/* 
+Brien, Brycen, Robert, Kush
+Vol Jump Project
+5/8/2023
+Game Manager UI
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,12 +19,11 @@ public class GameManager : MonoBehaviour
 
     [SerializeField]
     public GameObject MK, TB, TREC, SE, SU, NS;
-    public GameObject _background;
+    public GameObject _background, VolumeScreen;
     public int platformCount = 300;
-    // Start is called before the first frame update
 
-    // Update is called once per frame
-
+    // When the Play Button is clicked, Platforms are spawned,
+    // and the game begins
     public void StartFrame() 
     {
         Vector3 spawnPosition = new Vector3();
@@ -30,8 +35,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    // Loads Main menu screen with necessary canvas elements activated
+    // and not activated
     public void Start() 
     {
+        VolumeScreen.SetActive(false);
         MK.SetActive(false);
         TB.SetActive(false);
         TREC.SetActive(false);
@@ -46,6 +54,4 @@ public class GameManager : MonoBehaviour
         _player.SetActive(false);
 
     }
- 
-
 }

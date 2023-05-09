@@ -1,3 +1,9 @@
+/* 
+Brien, Brycen, Robert, Kush
+Vol Jump Project
+5/8/2023
+Player Physics
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,18 +14,18 @@ public class playerController : MonoBehaviour
     public Rigidbody2D rb;
     private float moveX;
 
-    // Start is called before the first frame update
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
+    // Can Only change the characters left/right movement
     void Update()
     {
         moveX = Input.GetAxis("Horizontal") * moveSpeed;
     }
 
+    // Pre-Initialize move speed of player to 10
     private void FixedUpdate()
     {
         Vector2 velocity = rb.velocity;

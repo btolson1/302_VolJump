@@ -1,3 +1,9 @@
+/* 
+Brien, Brycen, Robert, Kush
+Vol Jump Project
+5/8/2023
+EndScreen UI
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,6 +18,7 @@ public class EndScreenScript : MonoBehaviour
 
    public void Start() 
     {
+        // Print current high score and most recently achieved score
         highscore = PlayerPrefs.GetInt("highScore", 0);
         score = PlayerPrefs.GetInt("score", 0);
         endHighScoreText.text = "High Score: " + highscore.ToString();
