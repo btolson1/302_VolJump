@@ -65,6 +65,7 @@ public class Buttons : MonoBehaviour
      SE.SetActive(false);
      SU.SetActive(false);
      NS.SetActive(false);
+     PlayerPrefs.SetInt("back", 2);
    }
       public void SelectTRECS() {
      MK.SetActive(false);
@@ -73,6 +74,7 @@ public class Buttons : MonoBehaviour
      SE.SetActive(false);
      SU.SetActive(false);
      NS.SetActive(false);
+     PlayerPrefs.SetInt("back", 5);
    }
       public void SelectDrScott() {
      MK.SetActive(false);
@@ -81,6 +83,7 @@ public class Buttons : MonoBehaviour
      SE.SetActive(true);
      SU.SetActive(false);
      NS.SetActive(false);
+     PlayerPrefs.SetInt("back", 1);
    }
       public void SelectNeyland() {
      MK.SetActive(false);
@@ -89,6 +92,7 @@ public class Buttons : MonoBehaviour
      SE.SetActive(false);
      SU.SetActive(false);
      NS.SetActive(true);
+     PlayerPrefs.SetInt("back", 0);
    }
       public void SelectStudentUnion() {
      MK.SetActive(false);
@@ -97,6 +101,7 @@ public class Buttons : MonoBehaviour
      SE.SetActive(false);
      SU.SetActive(true);
      NS.SetActive(false);
+     PlayerPrefs.SetInt("back", 3);
    }
       public void SelectTorchBearer() {
      MK.SetActive(false);
@@ -105,6 +110,7 @@ public class Buttons : MonoBehaviour
      SE.SetActive(false);
      SU.SetActive(false);
      NS.SetActive(false);
+     PlayerPrefs.SetInt("back", 4);
    }
 
   // Load Volume Canvas
