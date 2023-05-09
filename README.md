@@ -7,9 +7,9 @@ We worked on “Vol Jump” in the Unity library. You may need to use the Unity 
 
 Step 2: Instructions on how to build/compile our project:
 
-1) In order to run Vol Jump,
- Go into the "Executable_Game" Folder, and download the 
-"COSC-FINAL.exe" file. Double clicking this executable should get the game to work. 
+ 1) In order to run Vol Jump,
+    Go into the "Executable_Game" Folder, and download the 
+   "COSC-FINAL.exe" file. Double clicking this executable should get the game to work. 
 
 2) If this does not work, and the game must be built on your local machine then you must have 
    Unity Version 2021.3.23f1 Installed. You must pull all files from the repo, then open Unity Hub.
@@ -32,6 +32,6 @@ Step 4: Any known bugs/errors (if the bugs and errors are reported then they won
   Game does not keep the player from leaving the left and right bounds of the camera.
  
 
-TODO: Step 5: Any additional information to inform the TAs and instructors to inform 
+Step 5: Any additional information to inform the TAs and instructors to inform 
 
 There is no additional information to be informed to the TAs and instructors.
